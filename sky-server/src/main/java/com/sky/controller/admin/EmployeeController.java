@@ -23,6 +23,14 @@ import java.util.Map;
 /**
  * 员工管理
  */
+
+/**
+ * GET    /admin/employee          → 查所有（分页）
+ * POST   /admin/employee          → 新增
+ * GET    /admin/employee/{id}     → 查一个
+ * PUT    /admin/employee/{id}     → 改一个
+ * DELETE /admin/employee/{id}     → 删一个
+ */
 @RestController
 @RequestMapping("/admin/employee")
 @Slf4j
