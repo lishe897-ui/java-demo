@@ -11,3 +11,15 @@ sky:
     access-key-id: REDACTED_OSS_KEY
     access-key-secret: REDACTED_OSS_SECRET
     bucket-name: java-waimai2
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0
+  shop:
+    address: 北京市海淀区中关村大街1号
+  baidu:
+    ak: 你的百度地图AK
+  wechat:
+    appid: wxffb3637a228223b8
+    secret: 84311df9199ecacdf4f12d27b6b9522d
