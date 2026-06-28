@@ -5,28 +5,28 @@ sky:
     port: 3306
     database: sky_take_out
     username: root
-    password: 123456
+    password: ${DB_PASSWORD:}
   alioss:
-    endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: REDACTED_OSS_KEY
-    access-key-secret: REDACTED_OSS_SECRET
-    bucket-name: java-waimai2
+    endpoint: ${OSS_ENDPOINT:}
+    access-key-id: ${OSS_ACCESS_KEY_ID:}
+    access-key-secret: ${OSS_ACCESS_KEY_SECRET:}
+    bucket-name: ${OSS_BUCKET_NAME:}
   redis:
     host: localhost
     port: 6379
-    password: 123456
+    password: ${REDIS_PASSWORD:}
     database: 0
   shop:
     address: 北京市海淀区中关村大街1号
   baidu:
-    ak: 你的百度地图AK
+    ak: ${BAIDU_AK:}
   wechat:
-    appid: REDACTED_WECHAT_APPID
-    secret: REDACTED_WECHAT_SECRET
-    mchid: 1
-    mchSerialNo: 1
-    privateKeyFilePath: /
-    apiV3Key: 1
-    weChatPayCertFilePath: /
-    notifyUrl: http://localhost
-    refundNotifyUrl: http://localhost
+    appid: ${WECHAT_APPID:}
+    secret: ${WECHAT_SECRET:}
+    mchid: ${WECHAT_MCHID:}
+    mchSerialNo: ${WECHAT_MCH_SERIAL_NO:}
+    privateKeyFilePath: ${WECHAT_PRIVATE_KEY_PATH:}
+    apiV3Key: ${WECHAT_API_V3_KEY:}
+    weChatPayCertFilePath: ${WECHAT_PAY_CERT_PATH:}
+    notifyUrl: ${WECHAT_NOTIFY_URL:}
+    refundNotifyUrl: ${WECHAT_REFUND_NOTIFY_URL:}
