@@ -21,5 +21,12 @@ sky:
   baidu:
     ak: 你的百度地图AK
   wechat:
-    appid: wxffb3637a228223b8
-    secret: 84311df9199ecacdf4f12d27b6b9522d
+    appid: REDACTED_WECHAT_APPID
+    secret: REDACTED_WECHAT_SECRET
+    mchid: 1
+    mchSerialNo: 1
+    privateKeyFilePath: /
+    apiV3Key: 1
+    weChatPayCertFilePath: /
+    notifyUrl: http://localhost
+    refundNotifyUrl: http://localhost

@@ -52,6 +52,10 @@ public class UserController {
                 .id(user.getId())
                 .openid(user.getOpenid())
                 .token(token)
+                .shopName("苍穹外卖")
+                .shopAddress("北京市海淀区中关村大街1号")
+                .shopId(1L)
+                .deliveryFee(5.0)
                 .build();
         return Result.success(userLoginVO);
     }
